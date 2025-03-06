@@ -3,13 +3,16 @@
 	background-color: var(--project-card-bg);
 	box-shadow: var(--box-shadow);
 	border-radius: 10px;
+	height: 100%;
 }
 
 .project__img {
 	border-radius: 10px;
+	height: 80% !important;
 }
 
 .project__title {
+	border-top: 1px solid #948c8c;
 	padding: 15px 20px 25px;
 	font-weight: 700;
 	font-size: 24px;

@@ -15,13 +15,13 @@ const Nav = () => {
             <div className="container">
                 <div className="nav-row">
                     <NavLink to="/" className="logo">
-                        <strong>Freelancer</strong> portfolio
+                        <strong>Portfolio</strong> 
                     </NavLink>
 
-                    <button className="dark-mode-btn">
+                    {/* <button className="dark-mode-btn">
                         <img src={sun} alt="Light mode" className="dark-mode-btn__icon" />
                         <img src={moon} alt="Dark mode" className="dark-mode-btn__icon" />
-                    </button>
+                    </button> */}
 
                     <ul className="nav-list">
 
